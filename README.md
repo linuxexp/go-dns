@@ -1,7 +1,7 @@
 - Simple Authoritative DNS server in Go
 
 ```
-$ dig example.com @localhost -p1023
+$ dig example.com -t MX @localhost -p1023
 
 ; <<>> DiG 9.10.6 <<>> example.com -t MX @localhost -p1023
 ;; global options: +cmd
